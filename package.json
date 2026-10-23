@@ -1,0 +1,29 @@
+{
+  "name": "http-cats",
+  "displayName": "HTTP Cats",
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "http-cats.Http Cats",
+        "title": "Http Cats"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:http-cats.Http Cats"
+  ],
+  "dependencies": {
+    "ws": "^8.4.0"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "publisher": "kisalto",
+  "description": "Abre um gato HTTP aleat\u00f3rio no Simple Browser",
+  "icon": "continue.png",
+  "repository": {
+    "url": "https://github.com/kisalto/httpcats_extension"
+  }
+}
