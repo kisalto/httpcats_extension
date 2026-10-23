@@ -1,6 +1,7 @@
 # Extras
 node_modules
 extensions
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
